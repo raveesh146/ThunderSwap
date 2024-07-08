@@ -1,4 +1,4 @@
-// const headers = { '0x-api-key': 'API KEY' }// Enter API key here
+// const headers = { '0x-api-key': 'dfba8a68-afa1-486e-b91c-60f87f4218c1' }// Enter API key here
 require('dotenv').config();
 const headers = { '0x-api-key': process.env.REACT_APP_0X_API_KEY };
 const qs = require('qs');
@@ -388,7 +388,7 @@ document.getElementById("to_token_select").onclick = () => {
     openModal("to");
 };
 document.getElementById("modal_close").onclick = closeModal;
-document.getElementById("from_amount").onblur = getPrice;
+document.getElementById("from_amount").oninput = getPrice;
 document.getElementById("swap_button").onclick = trySwap;
 
 

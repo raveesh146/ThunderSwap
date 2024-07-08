@@ -1,4 +1,6 @@
-const headers = { '0x-api-key': 'API KEY' }// Enter API key here
+// const headers = { '0x-api-key': 'API KEY' }// Enter API key here
+require('dotenv').config();
+const headers = { '0x-api-key': process.env.REACT_APP_0X_API_KEY };
 const qs = require('qs');
 const { default: BigNumber } = require('bignumber.js')
 const Web3 = require('web3');

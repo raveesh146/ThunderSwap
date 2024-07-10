@@ -24,4 +24,4 @@ cd cross-chain-token-swap-dapp
  npm install browserify qs web3 bignumber.js
 
 3. Bundle JavaScript modules
-
+ browserify index.js -o bundle.js

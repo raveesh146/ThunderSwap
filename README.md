@@ -17,7 +17,7 @@ style.css: CSS file for styling.
 Setup Instructions:
 
  1. Clone the repository:
-git clone https://github.com/your-username/cross-chain-token-swap-dapp.git
+git clone https://github.com/raveesh146/ThunderSwap
 cd cross-chain-token-swap-dapp
 
 2. Install dependencies:
